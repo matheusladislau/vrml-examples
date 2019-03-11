@@ -3,17 +3,15 @@
 
 # objeto
 Shape{
-
- #aparencia
-   appearance Appearance{
-      material Material{
-      # RGB
-         diffuseColor 1.0 0.0 0.0
-
-}
-   }
-   # define a geometria do objeto - cubo (Box)
-   geometry Box {
-      size 2.5 2.5 2.5 # largura, altura, profundidade
-   }
+  #aparencia
+  appearance Appearance{
+    material Material{
+    # RGB
+      diffuseColor 1.0 0.0 0.0
+    }
+  }
+  # define a geometria do objeto - cubo (Box)
+  geometry Box {
+    size 2.5 2.5 2.5 # largura, altura, profundidade
+  }
 } # fim do shape
