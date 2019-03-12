@@ -1,0 +1,17 @@
+#VRML V2.0 utf8
+# cubo vermelho
+
+Shape{
+  appearance Appearance{
+    material Material{
+      diffuseColor 1.0 0.0 0.0
+    }
+  }
+  geometry Cylinder {
+  	radius 2.0   # raio
+  	height 1.0   # altura
+  	side TRUE    # tem a lateral ?
+  	top TRUE     # tem a parte de cima ?
+  	bottom TRUE  # tem a parte de baixo ?
+  }
+}
